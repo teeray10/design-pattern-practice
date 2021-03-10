@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AbstractFactoryMethod.iml" filepath="$PROJECT_DIR$/AbstractFactoryMethod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AbstractFactoryPattern.iml" filepath="$PROJECT_DIR$/AbstractFactoryPattern.iml" />
     </modules>
   </component>
 </project>
