@@ -1,4 +1,6 @@
 package com.dvt.abstract_factory.doors;
 
-public class Model1Doors implements Doors{
+import com.dvt.abstract_factory.Part;
+
+public class Model1Doors implements Part {
 }

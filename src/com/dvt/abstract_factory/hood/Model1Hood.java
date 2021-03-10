@@ -1,4 +1,6 @@
 package com.dvt.abstract_factory.hood;
 
-public class Model1Hood implements Hood {
+import com.dvt.abstract_factory.Part;
+
+public class Model1Hood implements Part {
 }
