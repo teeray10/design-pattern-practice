@@ -1,4 +1,4 @@
-package builder;
+package com.dvt.builder;
 
 public class Meal {
     private final String gender;
@@ -31,7 +31,7 @@ public class Meal {
         private String sideOrder = "Not specified";
         private String toyType = "Not specified";
 
-        public Builder(String gender, String burgerType){
+        public Builder(String gender, String burgerType) {
             this.gender = gender;
             this.burgerType = burgerType;
         }
@@ -51,7 +51,7 @@ public class Meal {
             return this;
         }
 
-        public Meal build(){
+        public Meal build() {
             return new Meal(this);
         }
     }
