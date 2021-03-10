@@ -1,10 +1,9 @@
-package com.dvt;
+package com.dvt.abstract_factory;
 
-import com.dvt.abstract_factory.Part;
 import com.dvt.abstract_factory.factory.FactoryProducer;
 import com.dvt.abstract_factory.factory.StampingEquipmentFactory;
 
-public class Main {
+public class Client {
 
     public static void main(String[] args) {
         StampingEquipmentFactory model1Factory = FactoryProducer.getFactory("MODEL1");
