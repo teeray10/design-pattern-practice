@@ -5,4 +5,9 @@ public class Rectangle implements Shape{
     public void draw() {
         System.out.println("Rectangle");
     }
+
+    @Override
+    public String actualVale() {
+        return "Rectangle";
+    }
 }

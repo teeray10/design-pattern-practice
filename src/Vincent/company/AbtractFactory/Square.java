@@ -5,4 +5,9 @@ public class Square implements Shape{
     public void draw() {
         System.out.println("Square");
     }
+
+    @Override
+    public String actualVale() {
+        return null;
+    }
 }
