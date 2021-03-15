@@ -8,12 +8,12 @@ public class RoundedShapeFactoryTest {
     public void getShape() {
         boolean isRounded = false;
         if (isRounded){
-            AbstractFactory shapeFactory = FactoryProducer.getFactory(true);
+            AbstractFactory shapeFactory = FactoryProducer.getFactory(isRounded);
             Shape shape = shapeFactory.getShape("Rectangle");
             assertEquals("RoundedRectangle",shape.actualVale());
         }
         else {
-            AbstractFactory shapeFactory = FactoryProducer.getFactory(false);
+            AbstractFactory shapeFactory = FactoryProducer.getFactory(!!isRounded);
             Shape shape = shapeFactory.getShape("Rectangle");
             assertEquals("Rectangle",shape.actualVale());
         }

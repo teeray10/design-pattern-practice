@@ -8,6 +8,6 @@ public class RoundedSquare implements Shape{
 
     @Override
     public String actualVale() {
-        return null;
+        return "RoundedSquare";
     }
 }
