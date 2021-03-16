@@ -1,11 +1,11 @@
-package com.dvt.abstract_factory.factory;
+package com.dvt.creational.abstract_factory.factory;
 
-import com.dvt.abstract_factory.Part;
-import com.dvt.abstract_factory.doors.Model2Doors;
-import com.dvt.abstract_factory.hood.Model2Hood;
-import com.dvt.abstract_factory.wheels.Model2Wheels;
+import com.dvt.creational.abstract_factory.Part;
+import com.dvt.creational.abstract_factory.doors.Model2Doors;
+import com.dvt.creational.abstract_factory.hood.Model2Hood;
+import com.dvt.creational.abstract_factory.wheels.Model2Wheels;
 
-public class Model2FactoryImpl implements StampingEquipmentFactory {
+public class Model2Factory implements StampingEquipmentFactory {
     @Override
     public Part stampPart(String partType) {
         return switch (partType) {

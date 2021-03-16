@@ -1,6 +1,6 @@
-package com.dvt.abstract_factory.wheels;
+package com.dvt.creational.abstract_factory.wheels;
 
-import com.dvt.abstract_factory.Part;
+import com.dvt.creational.abstract_factory.Part;
 
 public class Model2Wheels implements Part {
     @Override

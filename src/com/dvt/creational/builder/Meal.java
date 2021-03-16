@@ -1,4 +1,4 @@
-package com.dvt.builder;
+package com.dvt.creational.builder;
 
 public class Meal {
     private final String gender;
